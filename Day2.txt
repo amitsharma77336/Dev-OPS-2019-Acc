@@ -1,0 +1,363 @@
+    1  ls
+    2  pwd
+    3  cd devops-acc-20190708
+    4  ls
+    5  cd atmosphere/
+    6  ls
+    7  cd spring-boot-samples/
+    8  ls
+    9  cd spring-boot-sample-atmosphere/
+   10  ls
+   11  pwd
+   12  cd /atmosphere/spring-boot-samples/spring-boot-sample-atmosphere/pom.xml
+   13  python --version
+   14  cd ~
+   15  python -version
+   16  python -v
+   17  apt install python
+   18  python
+   19  apt-get update;apt-get install -y openjdk-8-jdk maven
+   20  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+   21  clear
+   22  ls
+   23  git clone https://github.com/amitvashist7/devops-acc-20190708.git
+   24  ls
+   25  cd devops-acc-20190708/
+   26  ls
+   27  cd ..
+   28  ls
+   29  cp -rf devops-acc-20190708/ devops-acc-20190708-backup/
+   30  ls
+   31  ls -lrah
+   32  cd devops-acc-20190708
+   33  ls
+   34  cd atmosphere/
+   35  ls
+   36  cd spring-boot-samples/spring-boot-sample-atmosphere/
+   37  ls
+   38  mvn --version
+   39  java -version
+   40  ls
+   41  mvn cleancd src
+   42  cd src
+   43  ls
+   44  cd ..
+   45  ls
+   46  clear
+   47  cat pom.xml 
+   48  clear
+   49  mvn package
+   50  ls
+   51  cd target/
+   52  ls
+   53  clear
+   54  cd target
+   55  ls
+   56  clear
+   57  cd ~
+   58  ls
+   59  pwd
+   60  java -jar jenkins.war -httpPort=9090
+   61  cler
+   62  clear
+   63  java -jar jenkins.war --httpPort=9090
+   64  Authenticating with public key "imported-openssh-key"
+   65  Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-1087-aws x86_64)
+   66  cd 
+   67  Authenticating with public key "imported-openssh-key"
+   68  Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-1087-aws x86_64)
+   69  cd /root/.jenkins/workspace/Atmosphere-pipeline-v1
+   70  ls
+   71  ls -lrah
+   72  cd atmosphere/
+   73  ls
+   74  cd 
+   75  ddd
+   76  clear
+   77  gyf
+   78  pwd
+   79  ls
+   80  ls -lrah
+   81  cd .jenkins/
+   82  ls
+   83  cd ..
+   84  uname -a
+   85  uname
+   86  hostname
+   87  docker --version
+   88  sudo apt-get update
+   89  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+   90  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   91  sudo apt-get update
+   92  docker --version
+   93  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   94  docker --version
+   95  top
+   96  clear
+   97  docker --version
+   98  docker images
+   99  docker pull ubuntu
+  100  docker pull centos
+  101  docker images
+  102  cat /etc/*-release
+  103  docker run -it ubuntu
+  104  docker ps
+  105  docker run -it ubuntu
+  106  docker ps
+  107  docker run -it ubuntu
+  108  docker ps
+  109  clear
+  110  docker run -it ubuntu
+  111  docker ps
+  112  docker run -it ubuntu
+  113  docker ps
+  114  docker run -it ubuntu
+  115  docker ps
+  116  clear
+  117  docker 42cbbc843013ps
+  118  docker ps
+  119  docker run -it --name Test-02  -p 8081:80 ubuntu
+  120  docker attach test-02
+  121  docker ps
+  122  docker attach Test-02
+  123  docker
+  124  docker kill all
+  125  docker ps -aq
+  126  docker ps
+  127  docker ps aq
+  128  docker ps -aq
+  129  clear
+  130  docker -v
+  131  docker --version
+  132  docker search apache
+  133  docker search nginix
+  134  docker pull armsultan/nginx-static-site
+  135  docker ps
+  136  docker stop 2acbcaeb5295
+  137  docker stop 42cbbc843013
+  138  docker stop d4dbe77e9b8d
+  139  clear
+  140  docker images
+  141  docker run -it --name NGINIG_IMAGE -p 8081:80 armsultan/nginx-static-site
+  142  docker ps
+  143  docker attach 929820ff7b17
+  144  docker ps
+  145  docker kill 929820ff7b17
+  146  docker ps
+  147  docker images
+  148  ls
+  149  cd /var/lib/
+  150  ls
+  151  cd docker
+  152  ls
+  153  cd image
+  154  ls
+  155  ls -lrah
+  156  cd overlay2/
+  157  ls
+  158  cd ..
+  159  ls
+  160  clear
+  161  docker search python
+  162  docker searchnginix
+  163  docker searh nginix
+  164  docker search nginix
+  165  ifconfig
+  166  clear
+  167  docker search nginix
+  168  docker run -it --name NGINIG_IMAGE -p 8081:80 armsultan/nginx-static-site /bin.bash
+  169  docker run -it --name NGINIG_IMAGE -p 8081:80 armsultan/nginx-static-site /bin/bash
+  170  docker ps
+  171  docker ps -a
+  172  docker kill 929820ff7b17
+  173  docker start 929820ff7b17 /bin/bash
+  174  docker start 929820ff7b17
+  175  docker ps
+  176  docker kill 929820ff7b17
+  177  docker ps -a
+  178  docker ps
+  179  clear
+  180  docker ps
+  181  docker ps -a
+  182  docker start 929820ff7b17
+  183  docker exec -it 929820ff7b17 /bin/bash
+  184  docker exec -it 929820ff7b17 /bin/ba
+  185  clear
+  186  ls
+  187  cd ~
+  188  ls
+  189  docker exec -it 929820ff7b17 /bin/ba
+  190  docker start -it 929820ff7b17 /bin/bash~
+  191  docker start -it 929820ff7b17 /bin/bash
+  192  docker start -i 929820ff7b17 /bin/bash
+  193  docker ps
+  194  docker run -it --name NGINIG_IMAGE -p 8081:80 armsultan/nginx-static-site /bin/bash
+  195  docker ps -a
+  196  docker start 929820ff7b17
+  197  docker exec -it 929820ff7b17 /bin/ba
+  198  docker exec -it 929820ff7b17 /bin/bash
+  199  docker ps
+  200  docker stop 929820ff7b17
+  201  clear
+  202  docker rm -f $(docker ps -aq)
+  203  docker ps -
+  204  docker ps -a
+  205  curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  206  ls
+  207  cd /usr/local/bin/docker-compose
+  208  cat /usr/local/bin/docker-compose
+  209  clear
+  210  chmod +x /usr/local/bin/docker-compose 
+  211  ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+  212  docker-compose --version
+  213  ls
+  214  cd devops-acc-20190708
+  215  ls
+  216  cd docker/
+  217  ls
+  218  mkdir docker-compose
+  219  cp ../docker/apache/ .
+  220  ls
+  221  cd apache/
+  222  cp ../docker/apache/ .
+  223  cp ../apache/ .
+  224  ls
+  225  clear
+  226  vim docker-compose.yml
+  227  ls
+  228  cd ..
+  229  ls
+  230  cd ..
+  231  ls
+  232  cp -rf atmosphere/ docker/docker-compose/
+  233  docker ps
+  234  ls
+  235  cd docker/
+  236  cd docker-compose/
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd docker-compose/
+  241  cp -r ../apache/ .
+  242  ls
+  243  cd atmosphere/
+  244  ls
+  245  cd spring-boot-samples/
+  246  ls
+  247  cd spring-boot-sample-atmosphere/
+  248  ls
+  249  cd target/
+  250  ls
+  251  pwd
+  252  ls
+  253  pwd
+  254  cd ..
+  255  cd..
+  256  cd ..
+  257  pwd
+  258  ls
+  259  vim docker-compose.yaml
+  260  cat docker-compose.yaml 
+  261  ls
+  262  cd apache/
+  263  ls
+  264  cp Dokcerfile ../
+  265  ls
+  266  cd ..
+  267  ls
+  268  cat Dokcerfile 
+  269  cp Dokcerfile Dockerfile
+  270  ls
+  271  vim Dockerfile 
+  272  ls
+  273  docker-compose up -d --build
+  274  ls
+  275  vim Dockerfile 
+  276  docker-compose up -d --build
+  277  vim Dockerfile 
+  278  ls
+  279  vim docker-compose.yaml 
+  280  docker-compose up -d --build
+  281  vim Dockerfile 
+  282  docker-compose up -d --build
+  283  ls
+  284  cd /root/devops-acc-20190708/docker/docker-compose/atmosphere/spring-boot-samples/spring-boot-sample-atmosphere/target
+  285  /spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar .
+  286  ls
+  287  cd ..
+  288  ls
+  289  cp /root/devops-acc-20190708/docker/docker-compose/atmosphere/spring-boot-samples/spring-boot-sample-atmosphere/target
+  290  /spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar .
+  291  clear
+  292  ls
+  293  cp /root/devops-acc-20190708/docker/docker-compose/atmosphere/spring-boot-samples/spring-boot-sample-atmosphere/target .
+  294  ls
+  295  cp /root/devops-acc-20190708/docker/docker-compose/atmosphere/spring-boot-samples/spring-boot-sample-atmosphere/target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar .
+  296  ls
+  297  vim Dockerfile 
+  298  docker-compose up -d --build
+  299  docker ps
+  300  docker ps -a
+  301  docker ps
+  302  docker-compose up -d --build
+  303  docker ps
+  304  docker commit -p -m "Apache multi site" eb30cae568af APACHE_MULTISITE_IMAGE
+  305  docker commit -p -m "Apache multi site" eb30cae568af apache_multi_site
+  306  cat Dockerfile 
+  307  docker-compose up -d --build
+  308  docker ps
+  309  docker ps -a
+  310  docker logs
+  311  docker logs bfbf03a73126
+  312  ls
+  313  pwd
+  314  vim Dockerfile 
+  315  docker-compose up -d --build
+  316  docker ps
+  317  exit
+  318  clear
+  319  sudo apt-get update
+  320  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  321  clear
+  322  docker --version
+  323  exit
+  324  ls
+  325  cd devops-acc-20190708/docker/
+  326  ls
+  327  cd docker-compose/
+  328  ls
+  329  vim Dockerfile 
+  330  vim docker-compose.yaml 
+  331  docker-compose up -d --build
+  332  cat Dockerfile 
+  333  cat docker-compose.yaml 
+  334  clear
+  335  ls
+  336  cat docker-compose.yaml 
+  337  cat Dockerfile 
+  338  clear
+  339  cat Dockerfile 
+  340  ls
+  341  cd ..
+  342  ls
+  343  cd docker
+  344  ls
+  345  cd docker-compose/
+  346  ls
+  347  rm atmosphere/
+  348  rm -rf atmosphere/
+  349  ls
+  350  cd ..
+  351  cd docker/
+  352  ls
+  353  git init
+  354  git remote add origin https://github.com/amitsharma77336/Dev-OPS-2019-Acc.git
+  355  git add.
+  356  git add .
+  357  git status
+  358  git commit -m "Docker Compose for atmosphere project"
+  359  git log
+  360  git push
+  361  git push origini master
+  362  git push origin master
+  363  history > Day2.txt
