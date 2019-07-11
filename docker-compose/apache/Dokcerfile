@@ -1,0 +1,20 @@
+#select base image
+FROM ubuntu:16.04
+
+#owner
+MAINTAINER Amit Sharma <amit@gmail.com>
+
+# Update Ubuntu Repo 
+RUN apt-get update
+
+# Install apache
+RUN apt-get install apache2 -y
+
+# Add Custom page to container
+COPY helloworld.html /var/www/html/hello.html
+
+#RUN service of apache
+
+CMD ["/usr/sbin/apache2ctl","-D","FOREGROUND"]
+
+
